@@ -5,11 +5,12 @@ The 'Game of Life' is a 'cellular automaton', a simulation that shows how a simp
 ![output](octave/img/output.gif)
 
 ### Requirements
-- Octave / Matlab
+- Octave / Matlab / R
 
 ### Files
-- `begin.m` - Source file. Includes comments.
-- `begin_stripped.m` - A copy of the previous file. Does not include any comments.
+- `octave/life.m` - Octave source file. Includes comments.
+- `octave/life_nodoc.m` - A copy of the previous file. Does not include any comments.
+- `r/life.r` - R implementation of the Game of Life.
 
 ### References
 - Javascript implementation of Game of Life: http://pmav.eu/stuff/javascript-game-of-life-v3.1.1/
