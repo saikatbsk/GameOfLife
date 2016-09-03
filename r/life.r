@@ -9,7 +9,7 @@ down <- c(m, 2:m-1)
 
 iters <- c(1:MAXITER)
 
-for ( i in iters) {
+for (i in iters) {
     neighbours = cosmos[up, 1:m] + cosmos[down, 1:m] + cosmos[1:m, up] + cosmos[1:m, down] +
                  cosmos[up, up] + cosmos[up, down] + cosmos[down, up] + cosmos[down, down]
     cosmos = (neighbours == 3 | cosmos & neighbours == 2) * 1
