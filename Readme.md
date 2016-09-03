@@ -1,5 +1,4 @@
 # The Game of Life
----
 The 'Game of Life' is a 'cellular automaton', a simulation that shows how a simple beginning can give rise to complex mechanisms. A concept first devised by British mathematician John Horton Conway.
 
 ![output](octave/img/output.gif)
