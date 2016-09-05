@@ -4,7 +4,7 @@ clear; clc;
 %% The initial configuration is a set of random 1's in the cosmic void
 %% to begin the Game of Life.
 %% ======================================================================================
-m = 60;    % Scale fo the cosmos
+m = 60;    % Scale of the cosmos
 
 % Comment out lines 12 to 16 and lines 19 to 23 to enable this mechanism.
 cosmos = randi([0 1], [m m]);
